@@ -1,0 +1,175 @@
+.body{
+    
+    background-color: #a4daf4;
+    
+
+}
+
+.template{
+    display:grid;
+    width: 300px;
+    grid-template-columns: repeat(5,60px);
+    grid-template-rows: repeat(6,60px);
+
+}
+
+.container1{
+    display:flex;
+    justify-content: center;
+    height: 360px;
+    
+    
+    
+}
+
+.header{
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.h1{
+    color: #f85fa1;
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    
+
+}
+
+.container2{
+    margin-top: 30px;
+
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    flex-shrink: 0;
+    flex-grow:0;
+    margin: 0;
+}
+
+.template > div {
+    border: 2px solid white;
+    border-radius: 8px;
+    margin:2px;
+    color: white;
+    background-color: #023047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+                /*          BREAKPOINT            */
+
+
+               /*          KEYS            */
+.enterBackspace{
+    
+    width: 90px;
+    height: 60px;
+    
+}
+    
+.keyboard{
+    
+    width: 60px;
+    height: 60px;
+    font-size:20px;
+    
+
+    
+}
+
+.row > button {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin:2px;
+    background-color: grey;
+    color: white;
+    
+
+}
+
+.picDiv{
+    display: flex;
+    justify-content: center;
+}
+.pic{
+    display: none;
+    width: 700px;
+    margin:20px;
+    
+}
+
+@media(max-width:680px ){
+    .template{
+        width: 200px;
+        grid-template-columns: repeat(5,40px);
+        grid-template-rows: repeat(6,40px);
+    }
+
+    .container1{
+        height: 240px;
+    }
+
+    .h1{
+        font-size: 40px;
+        
+
+    }
+    
+    .header{
+        height: 200px;
+        
+
+    }
+    
+    .enterBackspace{
+    
+        width: 50px;
+        height: 30px;
+        font-size:  12px;
+        
+    }
+        
+    .keyboard{
+        
+        width: 30px;
+        height: 30px;
+        font-size:  12px;
+        
+    
+        
+    }
+
+    .template > div {
+        font-size: 20px;
+        
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        flex-shrink: 0;
+        flex-grow:0;
+    }
+    .row > button {
+        
+        margin:2px;
+        padding:0;
+        
+    
+    }
+    
+
+}
+
+
